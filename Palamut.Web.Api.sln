@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32210.238
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Palamut.Web.Api", "Palamut.Web.Api\Palamut.Web.Api.csproj", "{59DF9767-A80E-4B70-8EE5-F7E06F12C8A4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{59DF9767-A80E-4B70-8EE5-F7E06F12C8A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59DF9767-A80E-4B70-8EE5-F7E06F12C8A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59DF9767-A80E-4B70-8EE5-F7E06F12C8A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59DF9767-A80E-4B70-8EE5-F7E06F12C8A4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BA465632-45F8-47CD-A2A5-A1523A52BF42}
+	EndGlobalSection
+EndGlobal
