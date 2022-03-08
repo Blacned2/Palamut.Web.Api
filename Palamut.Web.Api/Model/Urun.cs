@@ -8,3 +8,4 @@
         public float UrunFiyat { get; set; }
     }
 }
+

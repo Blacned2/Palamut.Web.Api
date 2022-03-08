@@ -13,6 +13,7 @@ namespace MyWebApi.Context
         public DbSet<Alici> Alicilar { get; set; }
         public DbSet<Urun> Urunler { get; set; }
         public DbSet<Siparis> Siparisler { get; set; }
+        public DbSet<User> Users { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {

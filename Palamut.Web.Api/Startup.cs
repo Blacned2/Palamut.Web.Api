@@ -10,6 +10,8 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
 using MyWebApi.Context;
+using Palamut.Web.Api.Services;
+using Palamut.Web.Api.Services.Interface;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -31,6 +33,7 @@ namespace Palamut.Web.Api
         {
 
             //services.AddSingleton<IActionContextAccessor, ActionContextAccessor>();
+            services.AddScoped<IUserLoginService, UserLoginService>(); //UserLogin Service Dependency Injection Section
             services.AddDbContext<PalamutContext>(option => option.UseSqlServer(Configuration.GetConnectionString("Palamut")));
          
             services.AddSwaggerGen(c =>
