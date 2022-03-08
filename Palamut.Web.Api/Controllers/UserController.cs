@@ -15,22 +15,20 @@ namespace Palamut.Web.Api.Controllers
         }
 
         [HttpPost,Route("Register")]
-        public ActionResult<ResultType> RegisterRequest(UserServiceModel user)
+        public ActionResult<UserServiceModel> RegisterRequest(UserServiceModel user)
         {
             var result = _userLoginService.Register(user);
-
-            return result.ResultType;
+            
+            return result.ResultObject;
         }
 
         [HttpPost,Route("Login")]
-        public ActionResult<ResultType> LoginRequest(UserServiceModel user)
+        public ActionResult<UserServiceModel> LoginRequest(UserServiceModel user)
         {
             var result = _userLoginService.Login(user);
             
-            return result.ResultType;
+            return result.ResultObject;
         }
-
-
 
     }
 }
